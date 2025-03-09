@@ -1,0 +1,33 @@
+.header {
+    background-color: rgb(18, 183, 238);
+    padding: 20px;
+    text-align: left;
+}
+h1{
+   color: blue;
+}
+.my-image{
+    display: inline-block;
+        /* Розташовуємо зображення в одному рядку */
+        width: 200px;
+        /* Задаємо ширину зображень */
+        height: auto;
+        /* Автоматична висота */
+        margin: 10px;
+        /* Відступи між зображеннями */
+        border: 1px solid #eee;
+        /* Рамка для зображень */
+        vertical-align: middle;
+        /* Вирівнювання по вертикалі */
+
+}
+.content {
+    padding: 20px;
+    color: #0a0909;
+    background: #f4d749;
+}
+.footer {
+    background-color: lightgray;
+    padding: 10px;
+    text-align: center;
+}
