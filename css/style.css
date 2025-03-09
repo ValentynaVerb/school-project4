@@ -1,33 +1,55 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
 .header {
     background-color: rgb(18, 183, 238);
     padding: 20px;
     text-align: left;
 }
-h1{
-   color: blue;
-}
-.my-image{
-    display: inline-block;
-        /* Розташовуємо зображення в одному рядку */
-        width: 200px;
-        /* Задаємо ширину зображень */
-        height: auto;
-        /* Автоматична висота */
-        margin: 10px;
-        /* Відступи між зображеннями */
-        border: 1px solid #eee;
-        /* Рамка для зображень */
-        vertical-align: middle;
-        /* Вирівнювання по вертикалі */
 
+h1 {
+    color: blue;
+    text-align: center;
+    font-size: 40px;
 }
-.content {
+h2{
+    color: #e01414;
+}
+
+.container {
+    display: flex;
+    /* Використовуємо flexbox для розміщення секцій поруч */
+    justify-content: space-around;
+    /* Розміщуємо секції з рівномірними відступами */
     padding: 20px;
-    color: #0a0909;
-    background: #f4d749;
 }
+
+.section {
+    width: 30%;
+    /* Задаємо ширину секцій */
+    text-align: center;
+    /* Центруємо вміст секцій */
+    background-color: #f4d749;
+    /* Додаємо фон для секцій */
+    padding: 20px;
+}
+
+.my-image {
+    display: block;
+    width: 150px;
+    height: auto;
+    margin: 10px auto;
+    border: 1px solid #eee;
+}
+
 .footer {
     background-color: lightgray;
     padding: 10px;
     text-align: center;
+}
+p{
+    font-size: 20px;
 }
